@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Club Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;  /* Changed background to white */
+            color: black;  /* Adjusted text color to black for readability on white background */
+            height: auto;  /* Allow height to grow with content */
+            min-height: 100vh; /* Ensure the page takes at least the full height of the viewport */
+        }
+
+        header {
+            background-color: rgba(33, 150, 243, 0.8);
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+            border-bottom: 5px solid #0288d1;
+            position: relative;
+        }
+
+        /* Watermark */
+        .watermark {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 3em;
+            color: rgba(255, 255, 255, 0.2);
+            font-weight: bold;
+            letter-spacing: 5px;
+            user-select: none;
+            pointer-events: none;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 200px;
+            color: #333;
+        }
+
+        .product h2 {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+        }
+
+        .product p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #0288d1;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 1.1em;
+        }
+
+        button:hover {
+            background-color: #1e88e5;
+        }
+
+        footer {
+            background-color: rgba(33, 150, 243, 0.8);
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+            border-top: 5px solid #0288d1;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="watermark">Fish Club Owned</div>
+        <h1>Fish Club Services</h1>
+        <p>Welcome to Fish Club! Choose your favorite products and enjoy.</p>
+    </header>
+
+    <div class="product-container">
+        <div class="product">
+            <h2>Sparkling Shiny Abyssal Phantom Megalodon</h2>
+            <p>Price: €3.50</p>
+            <a href="https://paypal.me/LeoRaab533/3.50" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+
+        <div class="product">
+            <h2>Sparkling Shiny Translucent Megalodon</h2>
+            <p>Price: €0.40</p>
+            <a href="https://paypal.me/LeoRaab533/0.40" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+
+        <div class="product">
+            <h2>Sparkling Shiny Ancient Megalodon</h2>
+            <p>Price: €0.35</p>
+            <a href="https://paypal.me/LeoRaab533/0.35" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+
+        <div class="product">
+            <h2>Normal Megalodon</h2>
+            <p>Price: €0.25</p>
+            <a href="https://paypal.me/LeoRaab533/0.25" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Fish Club Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
